@@ -11,6 +11,7 @@ public class Main {
         books.add(new Book("Emma", "Jane Austen", 506));
         books.add(new Book("Serenad", "Zülfü Livaneli", 596));
         books.add(new Book("Tehlikeli Oyunlar", "Oğuz Atay", 458));
+        books.add(new Book("Oyunlarla Yaşayanlar", "Oğuz Atay", 245));
 
         for (Book bookList : books) {
             System.out.println(bookList.getBookName());
